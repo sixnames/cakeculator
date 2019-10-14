@@ -32,7 +32,7 @@ import { ReactComponent as EyeHide } from "./svg/eye-hide.svg";
 import { ReactComponent as RatingStars } from "./svg/rating-stars.svg";
 import { ReactComponent as NoImage } from "./svg/no-image.svg";
 import { ReactComponent as Info } from "./svg/info.svg";
-import { ReactComponent as MainLogo } from "./svg/main-logo.svg";
+import { ReactComponent as Logo } from "./svg/logo.svg";
 import { ReactComponent as Phone } from "./svg/phone.svg";
 import { ReactComponent as Business } from "./svg/business.svg";
 import { ReactComponent as Email } from "./svg/email.svg";
@@ -45,7 +45,6 @@ import { ReactComponent as Incoming } from "./svg/incoming.svg";
 import { ReactComponent as Play } from "./svg/play.svg";
 import { ReactComponent as Waiter } from "./svg/waiter.svg";
 import { ReactComponent as Warning } from "./svg/warning.svg";
-import { ReactComponent as LogoName } from "./svg/logo-name.svg";
 import { ReactComponent as Pie } from "./svg/pie.svg";
 import { ReactComponent as Car } from "./svg/car.svg";
 import { ReactComponent as Star } from "./svg/star.svg";
@@ -128,8 +127,8 @@ function Icon({ name, className, ...props }) {
       return <Pie className={className} {...props}/>;
     case 'warning':
       return <Warning className={className} {...props}/>;
-    case 'logo-name':
-      return <LogoName className={className} {...props}/>;
+    case 'logo':
+      return <Logo className={className} {...props}/>;
     case 'waiter':
       return <Waiter className={className} {...props}/>;
     case 'play':
@@ -156,8 +155,6 @@ function Icon({ name, className, ...props }) {
       return <Phone className={className} {...props}/>;
     case 'business':
       return <Business className={className} {...props}/>;
-    case 'main-logo':
-      return <MainLogo className={className} {...props}/>;
     case 'info':
       return <Info className={className} {...props}/>;
     case 'no-image':

@@ -1,13 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd8bfa7f-0127-4729-a7db-9ec29e30e50f" name="Default Changelist" comment="Initial">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="cd8bfa7f-0127-4729-a7db-9ec29e30e50f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/touch/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/touch/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/touch/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/touch/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/touch/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/touch/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/touch/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/touch/mstile-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/touch/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/touch/mstile-310x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/touch/mstile-310x310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/touch/mstile-70x70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/touch/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/touch/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/PTSans-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/PTSans-Regular.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icon/Icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icon/Icon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icon/svg/logist-status-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icon/svg/logist-status-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icon/svg/logist-status-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icon/svg/logist-status-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icon/svg/logist-status-5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icon/svg/logist-type-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icon/svg/logist-type-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icon/svg/logist-type-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icon/svg/logist-type-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icon/svg/logist-type-5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icon/svg/logo-indian.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icon/svg/logo-name.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icon/svg/logo-simple.svg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +72,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="Images" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -59,7 +91,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -89,6 +121,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cd8bfa7f-0127-4729-a7db-9ec29e30e50f" name="Default Changelist" comment="" />
@@ -104,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571043475582</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Components added">
+      <created>1571074174595</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571074174595</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +167,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Components added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Components added" />
   </component>
 </project>
