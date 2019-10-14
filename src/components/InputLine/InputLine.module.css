@@ -1,0 +1,57 @@
+.Line {
+  position: relative;
+  margin-bottom: var(--lineGap);
+}
+
+.Wide {
+  width: 100%;
+}
+
+.Low {
+  margin-bottom: 0;
+}
+
+.LineHolder {
+  display: flex;
+  align-items: center;
+}
+
+.LineContent {
+  flex-grow: 1;
+}
+
+.LinePostfix {
+  width: 20px;
+  margin-left: 5px;
+  flex-shrink: 0;
+  text-align: right;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.Label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: var(--midGray);
+}
+
+.Label sup {
+  vertical-align: middle;
+  font-size: 1.5em;
+  line-height: 0.5em;
+  color: var(--red);
+  font-weight: bold;
+}
+
+.LabelPostfix {
+  margin-left: 5px;
+  font-size: 0.8em;
+  color: var(--midGray);
+}
+
+.LabelLink {
+  margin-left: 5px;
+}

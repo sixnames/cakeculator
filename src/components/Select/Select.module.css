@@ -1,0 +1,84 @@
+.Select {
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding-top: 0;
+  padding-right: 15px;
+  padding-bottom: 0;
+  padding-left: 10px;
+  font-size: 14px;
+  color: var(--mainColor);
+  outline: none;
+  border: 1px solid var(--lightBorder);
+  background-color: var(--inputBg);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s;
+  -webkit-appearance: none;
+}
+
+.Normal {
+  height: 36px;
+  line-height: 34px;
+}
+
+.Big {
+  height: 48px;
+  line-height: 46px;
+}
+
+.Small {
+  height: 22px;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.Select:disabled {
+  opacity: 0.8;
+  cursor: default;
+}
+
+@media only screen and (max-width: 480px) {
+  .Select {
+    height: 30px;
+    line-height: 28px;
+    padding-left: 5px;
+  }
+}
+
+.Touched {
+  border-color: var(--blue);
+}
+
+.Error {
+  border-color: var(--red);
+}
+
+.Warned {
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+.Holder {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.Holder:before {
+  position: absolute;
+  right: 7px;
+  top: 50%;
+  z-index: 3;
+  display: block;
+  content: '';
+  width: 0;
+  height: 0;
+  margin-left: 5px;
+  border-top: 5px solid var(--gray);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  transform: translateY(calc(50% - 3px));
+}

@@ -1,0 +1,37 @@
+.Spinner {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  left: 60px;
+  z-index: 9999;
+  width: calc(100vw - 120px);
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.Spinner svg {
+  color: var(--theme);
+}
+
+@media only screen and (max-width: 1024px) {
+  .Spinner {
+    left: 0;
+    bottom: 40px;
+    height: calc(100vh - 76px);
+    width: 100vw;
+  }
+}
+
+.NoTheme svg {
+  color: var(--midGray);
+}
+
+.Inner {
+  position: relative;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  background: none;
+}

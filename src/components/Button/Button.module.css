@@ -1,0 +1,169 @@
+.Button {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s;
+  box-shadow: none;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.Button:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: default;
+}
+
+.Button svg {
+  position: relative;
+  flex-shrink: 0;
+  display: block;
+  margin-right: 5px;
+}
+
+.Button svg.IconNoGap {
+  margin: 0;
+}
+
+.Circle {
+  border-radius: 50%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.Circle svg {
+  margin: 0;
+}
+
+.Circle.Small {
+  width: 22px;
+}
+
+.Normal {
+  height: 36px;
+}
+
+.Normal svg {
+  width: 20px;
+  height: 20px;
+}
+
+.Circle.Normal {
+  width: 36px;
+}
+
+.Big {
+  height: 48px;
+}
+
+.Big svg {
+  width: 30px;
+  height: 30px;
+}
+
+.Circle.Big {
+  width: 48px;
+}
+
+.Button [class*="excel-icon"] {
+  top: 1px;
+  fill: var(--excel);
+}
+
+.Button:hover [class*="excel-icon"] {
+  fill: white;
+}
+
+a.Button {
+  padding-bottom: 0;
+}
+
+a.Button:hover {
+  text-decoration: none;
+}
+
+.main {
+  color: white;
+  border: 2px solid var(--theme);
+  background-color: var(--theme);
+}
+
+.main svg {
+  fill: white;
+}
+
+.main:hover {
+  color: var(--theme);
+  background-color: white;
+}
+
+.main:hover svg {
+  fill: var(--theme);
+}
+
+.light {
+  color: var(--theme);
+  border: 2px solid var(--theme);
+  background-color: white;
+}
+
+.light svg {
+  fill: var(--theme);
+}
+
+.light:hover {
+  color: white;
+  background-color: var(--theme);
+}
+
+.light:hover svg {
+  fill: white;
+}
+
+.gray {
+  color: var(--midGray);
+  border: 2px solid var(--midGray);
+  background-color: white;
+}
+
+.gray svg {
+  fill: var(--midGray);
+}
+
+.gray:hover {
+  color: white;
+  background-color: var(--midGray);
+}
+
+.gray:hover svg {
+  fill: white;
+}
+
+.Small {
+  height: 22px;
+  border-width: 1px;
+  font-size: 13px;
+}
+
+.Small svg {
+  top: 1px;
+  width: 12px;
+  height: 12px;
+}
+
+.no-frame {
+  border: none;
+  background-color: transparent;
+}

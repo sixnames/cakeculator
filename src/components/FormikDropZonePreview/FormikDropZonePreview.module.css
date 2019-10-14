@@ -1,0 +1,13 @@
+.Frame {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.Item {
+  margin-bottom: 15px;
+}
+
+.Item:not(:first-child) {
+  margin-left: 15px;
+}

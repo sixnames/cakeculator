@@ -1,0 +1,40 @@
+.Inner {
+  max-width: 1340px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Inner {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .Inner {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.Low {
+  padding-bottom: 0;
+}
+
+.LowTop {
+  padding-top: 0;
+}
+
+.Wide {
+  max-width: 100%;
+}
+
+.InModal {
+  padding-left: 0;
+  padding-right: 0;
+}

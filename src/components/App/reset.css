@@ -1,0 +1,185 @@
+:root {
+  --font: 'PT Sans', Arial, Helvetica, sans-serif;
+  --theme: #ec482f;
+  --mainColor: #1d2225;
+  --lightColor: #7a7d81;
+  --linkColor: #6b707c;
+  --black: #111111;
+  --gray: #757b87;
+  --midGray: #5c626e;
+  --lightGray: #f5f5f5;
+  --lighterGray: #ebebeb;
+  --blueGray: #e5e8eb;
+  
+  --inputBg: #fbfbfb;
+  --placeholder: #7a7d81;
+  --darkBg: #292929;
+  --lightBorder: #dfe0e1;
+  
+  --green: #27AE60;
+  --red: #ec482f;
+  --blue: #00c2ff;
+  --yellow: #ffde1b;
+  --orange: orange;
+  
+  --facebook: #3a5997;
+  --twitter: #30acee;
+  --telegram: #30acee;
+  --vk: #45668e;
+  --ok: #f68620;
+  --viber: #79489c;
+  --facetime: #46b96d;
+  --skype: #1eabe2;
+  --whatsapp: #50b948;
+  --excel: #267248;
+  --google: #d8634f;
+  
+  --lineGap: 25px;
+  
+  --shadow: 0 0 20px rgba(9, 9, 9, 0.25);
+}
+
+
+html, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, tt, var, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, hr {
+  vertical-align: baseline;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: inherit;
+  font-variant: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+article, address, aside, details, figcaption, figure,
+footer, header, menu, nav, section, label, small, time, img {
+  display: block;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 320px;
+  font-family: var(--font);
+  font-size: 16px;
+  color: var(--mainColor);
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+}
+
+mark {
+  background: none;
+  color: inherit;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+svg {
+  position: relative;
+  display: block;
+  transition: fill 0.2s;
+}
+
+a {
+  color: var(--linkColor);
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+a[href*='mailto:']:hover,
+a[href*='tel:']:hover {
+  text-decoration: none;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+::-webkit-input-placeholder {
+  color: var(--placeholder);
+}
+
+::-moz-placeholder {
+  color: var(--placeholder);
+}
+
+:-ms-input-placeholder {
+  color: var(--placeholder);
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+:focus::-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+:-ms-input-placeholder {
+  color: var(--placeholder);
+}

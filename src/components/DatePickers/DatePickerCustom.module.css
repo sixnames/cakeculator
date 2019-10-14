@@ -1,0 +1,38 @@
+.Frame {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 36px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0;
+  font-size: 14px;
+  color: var(--mainColor);
+  border: 1px solid var(--lightBorder);
+  background-color: transparent;
+  outline: none;
+  box-shadow: 0 0 0 transparent;
+  border-radius: 3px;
+  transition: all 0.2s;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.Touched {
+  border-color: var(--blue);
+}
+
+.Error {
+  border-color: var(--red);
+}
+
+@media only screen and (max-width: 480px) {
+  .Frame {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}

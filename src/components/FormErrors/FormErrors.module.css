@@ -1,0 +1,84 @@
+.Frame {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 50;
+  width: 300px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+}
+
+@media only screen and (max-width: 1024px) {
+  .Frame {
+    right: 10px;
+    bottom: 50px;
+  }
+}
+
+.Trigger {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  font-weight: bold;
+  color: var(--red);
+  font-size: 1.125em;
+  cursor: pointer;
+}
+
+.Trigger svg {
+  top: -1px;
+  width: 18px;
+  height: 18px;
+  fill: var(--red);
+  margin-right: 10px;
+}
+
+.Content {
+  max-height: 0;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: all 0.15s;
+}
+
+.ContentActive {
+  max-height: 20000px;
+  opacity: 1;
+  transition: max-height 0.8s, opacity 0.2s;
+}
+
+.List {
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+.ListHolder {
+  counter-reset: errors;
+}
+
+.ListItem {
+  position: relative;
+  padding-left: 15px;
+  color: var(--midGray);
+}
+
+.ListItem:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  content: counter(errors);
+  counter-increment: errors;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.ListItem:not(:first-child) {
+  margin-top: 7px;
+}

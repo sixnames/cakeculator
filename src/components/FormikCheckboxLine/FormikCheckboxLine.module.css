@@ -1,0 +1,38 @@
+.Frame {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 36px;
+  margin-bottom: var(--lineGap);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.Frame:hover {
+  color: var(--theme);
+}
+
+.InList {
+  margin-bottom: 5px;
+}
+
+.Low {
+  margin-bottom: 0;
+}
+
+.Disabled {
+  cursor: default;
+  opacity: 0.8;
+  color: var(--mainColor);
+}
+
+.Disabled:hover {
+  color: var(--mainColor);
+}
+
+.Label {
+  position: relative;
+  display: block;
+  width: calc(100% - 30px);
+}

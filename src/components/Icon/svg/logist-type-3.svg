@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>log-out</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="log-out" transform="translate(15.000000, 15.000000) scale(-1, 1) translate(-15.000000, -15.000000) " fill="#000000" fill-rule="nonzero">
+            <path d="M29.4,15 L19.8,7 L19.8,11.8 L8.6,11.8 L8.6,18.2 L19.8,18.2 L19.8,23 L29.4,15 Z M3.8,3.8 L16.6,3.8 L16.6,0.6 L3.8,0.6 C2.04,0.6 0.6,2.04 0.6,3.8 L0.6,26.2 C0.6,27.96 2.04,29.4 3.8,29.4 L16.6,29.4 L16.6,26.2 L3.8,26.2 L3.8,3.8 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

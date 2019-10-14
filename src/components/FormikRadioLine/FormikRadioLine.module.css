@@ -1,0 +1,14 @@
+.Line {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  min-height: 36px;
+}
+
+.Line span {
+  cursor: pointer;
+  padding-left: 10px;
+  flex-grow: 1;
+  font-weight: bold;
+  color: var(--midGray);
+}

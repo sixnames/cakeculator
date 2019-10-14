@@ -1,0 +1,57 @@
+.Section {
+  margin-bottom: 50px;
+}
+
+.Low {
+  margin-bottom: 0;
+}
+
+.Title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.Title:before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: var(--lightBorder);
+}
+
+@media only screen and (max-width: 768px) {
+  .Title {
+    font-size: 24px;
+  }
+}
+
+.TitleRed {
+  background-color: var(--red);
+  color: white;
+}
+
+.TitleRed:before {
+  display: none;
+}
+
+.TitleRed .TitleName {
+  background-color: transparent;
+}
+
+.TitleName {
+  position: relative;
+  z-index: 2;
+  max-width: calc(100% - 30px);
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  text-align: center;
+}
